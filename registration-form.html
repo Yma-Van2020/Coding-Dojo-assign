@@ -34,44 +34,43 @@
 
   </form>
 
-  <div>Gender Identity: </div>
-  <form action="">
-    <input type="radio" name="male" id="male">
+  <div>
+    <p>Gender Identity: </p>
+    <input type="radio" name="gID" id="male" value="male">
     <label for="male">Male</label>
 
-
-    <input type="radio" name="female" id="female">
+    <input type="radio" name="gID" id="female" value="female">
     <label for="female">Female</label>
 
-    <input type="radio" name="non-binary" id="non-binary">
+    <input type="radio" name="gID" id="non-binary" value="non-binary">
     <label for="non-binary">Non-binary</label>
 
-    <input type="radio" name="not-answer" id="not-answer">
+    <input type="radio" name="gID" id="not-answer" value="not-answer" checked>
     <label for="not-answer">I prefer not to answer</label>
-  </form>
+    </form>
 
-  <div>A short description about myself: </div>
-  <textarea name="self-description" cols="20" rows="3"></textarea>
+    <div>A short description about myself: </div>
+    <textarea name="self-description" cols="20" rows="3"></textarea>
 
-  <div>
+    <div>
 
-  </div>
-  <label for="fav-lang">Favorite Languages:</label>
-  <select name="choose-lang" id="fav-lang">
-    <option>Javascript</option>
-    <option>Python</option>
-    <option>Java</option>
-  </select>
+    </div>
+    <label for="fav-lang">Favorite Languages:</label>
+    <select name="choose-lang" id="fav-lang">
+      <option value="">Javascript</option>
+      <option value="">Python</option>
+      <option value="">Java</option>
+    </select>
 
-  <div>
-    <input type="checkbox" name="check" id="check">
-    <label for="check">Yes, I would like to receive periodic email update</label>
-  </div>
+    <div>
+      <input type="checkbox" name="check" id="check">
+      <label for="check">Yes, I would like to receive periodic email update</label>
+    </div>
 
-  <input type="submit" name="submit-btn" value="Create Account">
-  <div>*Indicates a required field</div>
+    <input type="submit" name="submit-btn" value="Create Account">
+    <div>*Indicates a required field</div>
 
-  </form>
+    </form>
 </body>
 
 </html>
