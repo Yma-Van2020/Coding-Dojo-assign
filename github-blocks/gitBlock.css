@@ -1,7 +1,7 @@
-body{
+body {
   background-color: antiquewhite;
   border-top: 5px solid black;
- }
+}
 
 h1 {
   text-align: center;
@@ -9,46 +9,47 @@ h1 {
   color: purple;
 }
 
-.first-row{
-background-color: pink;
-display: flex;
-align-items: center;
-justify-content: space-evenly;
-margin: 15px;
-padding: 15px;
+.first-row {
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 15px;
+  padding: 15px;
 }
 
 .first-row img {
-height: 200px;
+  height: 200px;
 }
 
-.second-row{
-background-color: indianred;
-display: flex;
-align-items: center;
-justify-content: space-evenly;
-margin: 15px;
-padding: 15px;
+.second-row {
+  background-color: indianred;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 15px;
+  padding: 15px;
 }
 
 .second-row img {
-height: 200px;
+  height: 200px;
 }
 
-.third-row{
-background-color: lightblue;
-display: flex;
-align-items: center;
-justify-content: space-evenly;
-margin: 15px;
-padding: 15px;
+.third-row {
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 15px;
+  padding: 15px;
 }
 
 .third-row img {
-height: 200px;
+  height: 200px;
 }
 
 footer {
-text-align: center;
-font-size: larger;
-font-family:fantasy;
+  text-align: center;
+  font-size: larger;
+  font-family: fantasy;
+}
