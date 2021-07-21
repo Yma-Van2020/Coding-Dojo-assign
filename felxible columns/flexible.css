@@ -4,32 +4,34 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.row{
+ display: flex;
+ justify-content:space-between;
+ align-items: center;
 }
 
-.col {
-  flex: 1;
-  background-color: rgb(2, 156, 156);
+.col{
+  flex:1;
+  background-color:rgb(2, 156, 156) ;
   color: white;
   margin: 5px;
-  padding: 15px 0px 15px 20px
+  padding:15px 0px 15px 20px;
 }
 
-.col-2 {
-  flex: 2;
-  background-color: rgb(2, 156, 156);
+.col-2{
+  flex:2;
+  background-color:rgb(2, 156, 156) ;
   color: white;
   margin: 5px;
-  padding: 15px 0px 15px 20px
+  padding:15px 0px 15px 20px;
 }
 
-.col-3 {
-  flex: 3;
-  background-color: rgb(2, 156, 156);
+.col-3{
+  flex:3;
+  background-color:rgb(2, 156, 156);
   color: white;
   margin: 5px;
-  padding: 15px 0px 15px 20px
+  padding:15px 0px 15px 20px;
 }
+
+
