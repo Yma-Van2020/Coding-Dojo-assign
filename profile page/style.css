@@ -40,7 +40,6 @@
   align-items: center;
 }
 
-
 .container-3 {
   border: 3px rgb(189, 188, 188) solid;
   width: 250px;
@@ -48,10 +47,9 @@
   position: absolute;
   left: 1000px;
   top: 150px;
-  
 }
 
-.container-4{
+.container-4 {
   border: 3px rgb(189, 188, 188) solid;
   width: 250px;
   height: 450px;
@@ -98,7 +96,8 @@
   height: 25px;
   border-radius: 50%;
 }
-.userimg{
+
+.userimg {
   border-radius: 50%;
 }
 
@@ -155,7 +154,8 @@ nav bar */
   padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.nav{
+
+.nav {
   background-color: rgb(66, 66, 66);
   padding: 10px 20px;
   color: whitesmoke;
@@ -174,7 +174,7 @@ ul li {
 }
 
 a:hover {
- color: yellow;
+  color: yellow;
 }
 
 ul {
@@ -183,7 +183,7 @@ ul {
 }
 
 h1 {
-  flex:1;
+  flex: 1;
 }
 
 .btn {
@@ -198,40 +198,40 @@ h1 {
 people img */
 
 .pimg {
- height: 35px;
- padding:10px;
- display: inline-block;
- border-radius: 50%;
+  height: 35px;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 50%;
 }
 
 /* peopele */
 
-.person1{
+.person1 {
   display: flex;
   align-items: center;
 }
 
-.person2{
+.person2 {
   display: flex;
   align-items: center;
 }
 
-.person3{
+.person3 {
   display: flex;
   align-items: center;
 }
 
-.person4{
+.person4 {
   display: flex;
   align-items: center;
 }
 
-.person5{
+.person5 {
   display: flex;
   align-items: center;
 }
 
-.person6{
+.person6 {
   display: flex;
   align-items: center;
 }
@@ -240,14 +240,14 @@ people img */
   padding: 20px;
 }
 
-.fa-check-circle{
+.fa-check-circle {
   padding-left: 25px;
 }
 
-.fa-times{
+.fa-times {
   padding-left: 26px;
 }
 
-.fa-heart{
+.fa-heart {
   padding-left: 25px;
 }
