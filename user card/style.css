@@ -1,0 +1,86 @@
+.container {
+  border: 3px rgb(189, 188, 188) solid;
+  width: 530px;
+  height: 300px;
+  position: absolute;
+  left: 450px;
+  top: 250px;
+  z-index: 0;
+}
+
+header {
+  background-color: rgb(100, 185, 211);
+  border: 1px rgb(100, 185, 211) solid;
+  height: 85px;
+  width: 533px;
+  z-index: 1;
+  position: absolute;
+  left: -3px;
+  top: -3px;
+}
+
+.userimg {
+  width: 82px;
+  z-index: 3;
+  position: absolute;
+  top: 36px;
+  left: 27px;
+}
+
+.circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  z-index: 2;
+  position: absolute;
+  top: 29px;
+  left: 20px;
+  border: 3px solid rgb(189, 188, 188);
+  background-color: white;
+}
+
+.row img {
+  position: absolute;
+  top: 180px;
+  left: 20px;
+  height: 25px;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.row div {
+  position: absolute;
+  top: 130px;
+  left: 20px;
+  font-size: 30px;
+}
+
+p {
+  position: absolute;
+  top: 160px;
+  left: 50px;
+  font-size: 20px;
+}
+
+#intro {
+  position: absolute;
+  top: 220px;
+  left: 30px;
+  font-size: 15px;
+}
+
+.edit {
+  position: absolute;
+  top: 266px;
+  left: 20px;
+  height: 20px;
+}
+
+a {
+  position: absolute;
+  top: 270px;
+  left: 50px;
+  font-size: 13px;
+}
