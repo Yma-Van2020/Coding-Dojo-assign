@@ -1,0 +1,68 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fixed width container class that will "auto-center" itself */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 5px;
+  background-color: cornflowerblue;
+  color: white;
+  border: 2px solid black;
+  box-shadow: 2px 2px black;
+  padding: 8px 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col {
+  flex: 1;
+  background-color: rgb(2, 156, 156);
+  color: white;
+  margin: 5px;
+  padding: 15px 0px 15px 20px;
+}
+
+.nav {
+  background-color: rgb(66, 66, 66);
+  padding: 10px 20px;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+}
+
+ul a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 15px;
+}
+
+a:hover {
+  color: yellow;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+h1 {
+  flex: 1;
+}
