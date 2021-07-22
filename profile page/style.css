@@ -52,10 +52,21 @@
 .container-4 {
   border: 3px rgb(189, 188, 188) solid;
   width: 250px;
-  height: 450px;
+  height: 300px;
   position: absolute;
   left: 1000px;
   top: 350px;
+}
+
+.num{
+  border-radius: 50%;
+  background-color: rgb(184, 51, 17);
+  margin-left: 20px;
+  height: 16px;
+  width: 25px;
+  text-align: center;
+  padding-top: 9px;
+  font-size: 10px;
 }
 
 .container header {
