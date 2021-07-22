@@ -91,7 +91,7 @@
 
 .row img {
   position: absolute;
-  top: 155px;
+  top: 165px;
   left: 20px;
   height: 25px;
   border-radius: 50%;
@@ -114,7 +114,7 @@
 
 .row p {
   position: absolute;
-  top: 160px;
+  top: 168px;
   left: 50px;
   font-size: 20px;
 }
