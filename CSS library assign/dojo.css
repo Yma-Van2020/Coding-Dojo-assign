@@ -13,6 +13,10 @@
   margin: 0 auto;
 }
 
+.login{
+  display: flex;
+  justify-content: flex-end;
+}
 .btn {
   padding: 5px;
   background-color: cornflowerblue;
