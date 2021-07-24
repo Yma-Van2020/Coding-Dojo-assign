@@ -62,10 +62,10 @@
   border-radius: 50%;
   background-color: rgb(184, 51, 17);
   margin-left: 20px;
-  height: 16px;
+  height: 12px;
   width: 25px;
   text-align: center;
-  padding-top: 9px;
+  padding:5px;
   font-size: 10px;
 }
 
@@ -166,12 +166,13 @@ nav bar */
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav {
+nav {
   background-color: rgb(66, 66, 66);
   padding: 10px 20px;
   color: whitesmoke;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 ul a {
@@ -190,15 +191,18 @@ a:hover {
 
 ul {
   display: flex;
-  justify-content: flex-end;
 }
 
 h1 {
   flex: 1;
 }
 
+.nav-links{
+  margin-right: 360px;
+}
 .btn {
   width: 80px;
+  padding:3px;
   border: black;
   box-shadow: 10px 5px 5px black;
   background-color: cornflowerblue;
@@ -261,4 +265,8 @@ people img */
 
 .fa-heart {
   padding-left: 25px;
+}
+
+.nav-title {
+  margin-left:430px;
 }
